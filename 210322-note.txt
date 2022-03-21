@@ -1,0 +1,6 @@
+1. dotnet tool install --global dotnet-aspnet-codegenerato
+2. dotnet add package Microsoft.EntityFrameworkCore.Design
+3. dotnet add package Microsoft.EntityFrameworkCore.SQLite
+4. dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+5. dotnet add package Microsoft.VisualStudio.web.Codegeneration.Design
+6. dotnet aspnet-codegenerator controller -name UserController -async -api -m User -dc LatihanAPIContext --RelativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
